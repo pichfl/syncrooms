@@ -1,0 +1,28 @@
+{
+  "name": "syncrooms",
+  "version": "1.0.0",
+  "description": "Sync state across connected clients",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florian Pichler <@pichfl>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.0",
+    "fastify": "^3.15.1",
+    "fastify-compress": "^3.4.2",
+    "fastify-cors": "^6.0.1",
+    "ioredis": "^4.27.2",
+    "lodash": "^4.17.21",
+    "ms": "^2.1.3",
+    "primus": "^8.0.2",
+    "primus-rooms": "^3.4.1",
+    "sockjs": "^0.3.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
